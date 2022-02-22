@@ -9,8 +9,8 @@ class NavigationHeader extends React.Component {
     render() {
         return (
             <div>
-                <Navbar bg="light" expand="large">
-                    <Navbar.Brand>Luke Whittle</Navbar.Brand>
+                <Navbar bg="dark" variant="dark" expand="md" >
+                    <Navbar.Brand as={Link} to='/'>Luke Whittle</Navbar.Brand>
                     <Nav.Link as={Link} to="/">
                         Home
                     </Nav.Link>

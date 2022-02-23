@@ -5,7 +5,7 @@ import App from "./App/App";
 //import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 //browserRouter can only have ONE CHILD COMPONENT
-import About from "./Routes/About";
+import About from "./Routes/About/About";
 import Contact from "./Routes/Contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';

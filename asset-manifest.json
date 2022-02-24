@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.88fb4fe0.css",
-    "main.js": "/static/js/main.b17f5951.js",
-    "static/media/PortfolioWebsites.png": "/static/media/PortfolioWebsites.8e35a3b9516eaf8798cb.png",
-    "static/media/liveOaks.jpg": "/static/media/liveOaks.19d30b8ddb8de54f2834.jpg",
-    "index.html": "/index.html",
-    "main.88fb4fe0.css.map": "/static/css/main.88fb4fe0.css.map",
-    "main.b17f5951.js.map": "/static/js/main.b17f5951.js.map"
+    "main.css": "/luke-whittle-resume/static/css/main.a0290b53.css",
+    "main.js": "/luke-whittle-resume/static/js/main.7fdb7a28.js",
+    "static/media/PortfolioWebsites.png": "/luke-whittle-resume/static/media/PortfolioWebsites.8e35a3b9516eaf8798cb.png",
+    "static/media/liveOaks.jpg": "/luke-whittle-resume/static/media/liveOaks.19d30b8ddb8de54f2834.jpg",
+    "index.html": "/luke-whittle-resume/index.html",
+    "main.a0290b53.css.map": "/luke-whittle-resume/static/css/main.a0290b53.css.map",
+    "main.7fdb7a28.js.map": "/luke-whittle-resume/static/js/main.7fdb7a28.js.map"
   },
   "entrypoints": [
-    "static/css/main.88fb4fe0.css",
-    "static/js/main.b17f5951.js"
+    "static/css/main.a0290b53.css",
+    "static/js/main.7fdb7a28.js"
   ]
 }

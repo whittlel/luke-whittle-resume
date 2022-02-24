@@ -9,12 +9,14 @@ class NavigationHeader extends React.Component {
     return (
       <div>
         <Navbar bg="dark" variant="dark" expand="md">
-          <Navbar.Brand style={{ color: "white" }} as={Link} to="/">
+          <Navbar.Brand
+            style={{ color: "white" }}
+            as={Link}
+            to="/luke-whittle-resume/"
+          >
             Luke Whittle
           </Navbar.Brand>
-          <Nav.Link style={{ color: "white" }} as={Link} to="/">
-            Home
-          </Nav.Link>
+
           <Nav.Link style={{ color: "white" }} as={Link} to="/About">
             About
           </Nav.Link>

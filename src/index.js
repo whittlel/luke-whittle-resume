@@ -7,20 +7,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //browserRouter can only have ONE CHILD COMPONENT
 import About from "./Routes/About/About";
 import Contact from "./Routes/Contact";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import NavigationHeader from "./Components/NavigationHeader";
 
 ReactDOM.render(
-
   <BrowserRouter>
     <NavigationHeader />
     <div>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/luke-whittle-resume/" element={<App />} />
         <Route path="About" element={<About />} />
         <Route path="Contact" element={<Contact />} />
-
       </Routes>
     </div>
   </BrowserRouter>,

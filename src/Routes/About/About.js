@@ -10,15 +10,13 @@ class About extends React.Component {
         <br />
         <Container md="auto">
           <Row xs={10} md={8}>
-            <h2>
-              <b
-                className="justify-content-md-center"
-                style={{ display: "flex", textAlign: "center" }}
-              >
-                Over the past two years I was a contracted lead developer for 65
-                websites in the virtual event industry.
-              </b>
-            </h2>
+            <h1
+              className="justify-content-md-center"
+              style={{ display: "flex", textAlign: "center" }}
+            >
+              Over the past two years I was a contracted lead developer for 65
+              websites in the virtual event industry.
+            </h1>
           </Row>
         </Container>
         <Container fluid className="pt-5">

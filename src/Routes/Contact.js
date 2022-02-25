@@ -5,10 +5,10 @@ class Contact extends React.Component {
     return (
       <div className="hero-image">
         <div className="hero-text">
-          <h1>Contact me at:</h1>
-          <p>lukewhittle1997@gmail.com</p>
+          <h1><b>Reach out to me at:</b></h1>
+          <a href="mailto: lukewhittle1997@gmail.com" style={{ color: "white" }}>lukewhittle1997@gmail.com</a>
         </div>
-      </div>
+      </div >
     );
   }
 }

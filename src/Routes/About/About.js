@@ -7,14 +7,19 @@ class About extends React.Component {
   render() {
     return (
       <div>
+        <br />
+        <Container md="auto">
+          <Row xs={10} md={8} >
+            <h2>
+              <b className="justify-content-md-center" style={{ display: "flex", textAlign: "center" }}>Over the past two years I was a contracted lead developer for 65
+                websites in the virtual event industry.
+              </b>
+            </h2>
+          </Row>
+        </Container>
         <Container fluid className="pt-5">
           <Row className="justify-content-md-left">
             <Col xs={6} className="pt-5" style={{ paddingLeft: "20px" }}>
-              <h2>
-                <b>Over the past two years I was a contracted lead developer for 65
-                  websites in the virtual event industry.
-                </b></h2>
-              <br />
               <h2 style={{ textIndent: "40px" }}>
                 During this time I developed supporting systems to reach automation goals.
                 This included building and integrating stand alone apps and backend systems
@@ -42,6 +47,7 @@ class About extends React.Component {
                   built.
                 </Card.Body>
               </Card>
+              <br />
               <Card>
                 <Card.Header>Automation System</Card.Header>
                 <Card.Body>
@@ -52,6 +58,7 @@ class About extends React.Component {
                   failures.
                 </Card.Body>
               </Card>
+              <br />
               <Card>
                 <Card.Header>
                   Browser Based 3D Interactive Environemnt
@@ -77,6 +84,7 @@ class About extends React.Component {
                   <ListGroup.Item>Docker</ListGroup.Item>
                 </ListGroup>
               </Card>
+              <br />
               <Card>
                 <Card.Header>Javascript</Card.Header>
                 <ListGroup>
@@ -86,6 +94,7 @@ class About extends React.Component {
                   <ListGroup.Item>React-Bootstrap</ListGroup.Item>
                 </ListGroup>
               </Card>
+              <br />
               <Card>
                 <Card.Header>AWS</Card.Header>
                 <ListGroup>

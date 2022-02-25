@@ -9,9 +9,13 @@ class About extends React.Component {
       <div>
         <br />
         <Container md="auto">
-          <Row xs={10} md={8} >
+          <Row xs={10} md={8}>
             <h2>
-              <b className="justify-content-md-center" style={{ display: "flex", textAlign: "center" }}>Over the past two years I was a contracted lead developer for 65
+              <b
+                className="justify-content-md-center"
+                style={{ display: "flex", textAlign: "center" }}
+              >
+                Over the past two years I was a contracted lead developer for 65
                 websites in the virtual event industry.
               </b>
             </h2>
@@ -21,9 +25,10 @@ class About extends React.Component {
           <Row className="justify-content-md-left">
             <Col xs={6} className="pt-5" style={{ paddingLeft: "20px" }}>
               <h2 style={{ textIndent: "40px" }}>
-                During this time I developed supporting systems to reach automation goals.
-                This included building and integrating stand alone apps and backend systems
-                to meet the features required for clients websites.
+                During this time I developed supporting systems to reach
+                automation goals. This included building and integrating stand
+                alone apps and backend systems to meet the features required for
+                clients websites.
               </h2>
               <br />
               <Card>
@@ -64,9 +69,13 @@ class About extends React.Component {
                   Browser Based 3D Interactive Environemnt
                 </Card.Header>
                 <Card.Body>
-                  I used a 3D scan of a building and cleaned and imported it
-                  to Unity to create a virtual environment that you could move
+                  I used a 3D scan of a building and cleaned and imported it to
+                  Unity to create a virtual environment that you could move
                   around in and explore the scan.
+                  <br />
+                  <a href="http://3dvistascan.us-east-2.elasticbeanstalk.com/">
+                    3d Scan Prototype
+                  </a>
                 </Card.Body>
               </Card>
               <br />

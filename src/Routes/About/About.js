@@ -6,29 +6,27 @@ import "./About.css";
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <body className="body-colored" style={{color: "white"}}>
         <br />
         <Container md="auto">
           <Row xs={10} md={8}>
             <h1
               className="justify-content-md-center"
-              style={{ display: "flex", textAlign: "center" }}
+              style={{ display: "flex", textAlign: "center",borderBottom: "3px solid white" }}
             >
               Over the past two years I was a contracted lead developer for 65
               websites in the virtual event industry.
             </h1>
+            <h1 style={{ display: "flex", textAlign: "center"}}>During this time I developed supporting systems to reach
+                automation goals. This included building and integrating stand
+                alone apps and backend systems to meet the features required for
+                clients websites.</h1>
           </Row>
         </Container>
         <Container fluid className="pt-5">
           <Row className="justify-content-md-left">
-            <Col xs={6} className="pt-5" style={{ paddingLeft: "20px" }}>
-              <h2 style={{ textIndent: "40px" }}>
-                During this time I developed supporting systems to reach
-                automation goals. This included building and integrating stand
-                alone apps and backend systems to meet the features required for
-                clients websites.
-              </h2>
-              <br />
+            <Col xs={6} className="pt-5" style={{ paddingLeft: "20px" }, {color: "black"}}>
+             
               <Card>
                 <Card.Header>Team Lead</Card.Header>
                 <Card.Body>
@@ -118,11 +116,11 @@ class About extends React.Component {
               </Card>
             </Col>
             <Col>
-              <img className="img-fluid" src={portfolioImage} />
+              <img className="img-fluid" src={portfolioImage} style={{marginTop:"48px"}}/>
             </Col>
           </Row>
         </Container>
-      </div>
+      </body>
     );
   }
 }

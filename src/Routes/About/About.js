@@ -9,7 +9,7 @@ class About extends React.Component {
       <body className="body-colored" style={{color: "white"}}>
         <br />
         <Container md="auto">
-          <Row xs={10} md={8}>
+          <Row xs={10} md={10}>
             <h1
               className="justify-content-md-center"
               style={{ display: "flex", textAlign: "center",borderBottom: "3px solid white" }}
@@ -24,9 +24,8 @@ class About extends React.Component {
           </Row>
         </Container>
         <Container fluid className="pt-5">
-          <Row className="justify-content-md-left">
-            <Col xs={6} className="pt-5" style={{ paddingLeft: "20px" }, {color: "black"}}>
-             
+          <Row className="justify-content-md-center" style={{paddingLeft:"40px"}}>
+            <Col xs={5} className="pt-5" style={{ paddingLeft: "40px" }, {color: "black"}}>
               <Card>
                 <Card.Header>Team Lead</Card.Header>
                 <Card.Body>
@@ -115,8 +114,8 @@ class About extends React.Component {
                 </ListGroup>
               </Card>
             </Col>
-            <Col>
-              <img className="img-fluid" src={portfolioImage} style={{marginTop:"48px"}}/>
+            <Col xs="5">
+              <img className="img-fluid" src={portfolioImage} style={{marginTop:"48px", width:"100%", paddingLeft:"40px", paddingRight:"40px"}}/>
             </Col>
           </Row>
         </Container>

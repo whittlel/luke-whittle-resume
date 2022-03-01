@@ -8,6 +8,8 @@ class Contact extends React.Component {
           <h1><b>Reach out to me at:</b></h1>
           <a href="mailto: lukewhittle1997@gmail.com" style={{ color: "white" }}>lukewhittle1997@gmail.com</a>
           <p>or <br />843.609.5170</p>
+          <br />
+          <a href="https://github.com/whittlel" style={{ color: "white" }}> https://github.com/whittlel</a>
         </div>
       </div >
     );

@@ -9,16 +9,16 @@ class About extends React.Component {
       <body className="body-colored" style={{ color: "white" }}>
         <br />
         <Container md="auto">
-          <Row xs={10} md={10}>
+          <Row xs={10} md={10} >
             <h1
               className="justify-content-md-center"
-              style={{ display: "flex", textAlign: "center" }}
+              style={{ display: "flex", textAlign: "center", marginBottom: "40px" }}
             >
               Over the past two years I was a contracted lead developer for 65
               websites in the virtual event industry.
             </h1>
             <br />
-            <h3 style={{ display: "flex", textAlign: "center", borderBottom: "3px solid white" }}>During this time I developed websites and supporting systems to reach
+            <h3 style={{ display: "flex", textAlign: "center", borderBottom: "3px solid white", marginBottom: "-2rem" }}>During this time I developed websites and supporting systems to reach
               automation goals. This included building and integrating stand
               alone apps and backend systems to meet the features required for
               clients websites.</h3>

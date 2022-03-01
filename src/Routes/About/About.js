@@ -77,7 +77,7 @@ class About extends React.Component {
               <br />
               <Card>
                 <Card.Header>Skills</Card.Header>
-                <ListGroup>
+                <ListGroup >
                   <ListGroup.Item>Javascript</ListGroup.Item>
                   <ListGroup.Item>AWS</ListGroup.Item>
                   <ListGroup.Item>SQL</ListGroup.Item>
@@ -92,8 +92,8 @@ class About extends React.Component {
               <br />
               <Card>
                 <Card.Header>Javascript</Card.Header>
-                <ListGroup>
-                  <ListGroup.Item>React.js</ListGroup.Item>
+                <ListGroup defaultActiveKey="https://main.dy6bvnod881nu.amplifyapp.com/">
+                  <ListGroup.Item action href="https://main.dy6bvnod881nu.amplifyapp.com/">React.js</ListGroup.Item>
                   <ListGroup.Item>Node.js</ListGroup.Item>
                   <ListGroup.Item>React-Router</ListGroup.Item>
                   <ListGroup.Item>React-Bootstrap</ListGroup.Item>

@@ -69,7 +69,7 @@ class About extends React.Component {
                   Unity to create a virtual environment that you could move
                   around in and explore the scan.
                   <br />
-                  <a href="http://3dvistascan.us-east-2.elasticbeanstalk.com/">
+                  <a className="fw-bold" href="http://3dvistascan.us-east-2.elasticbeanstalk.com/">
                     3d Scan Prototype
                   </a>
                 </Card.Body>
@@ -92,8 +92,8 @@ class About extends React.Component {
               <br />
               <Card>
                 <Card.Header>Javascript</Card.Header>
-                <ListGroup defaultActiveKey="https://main.dy6bvnod881nu.amplifyapp.com/">
-                  <ListGroup.Item action href="https://main.dy6bvnod881nu.amplifyapp.com/">React.js</ListGroup.Item>
+                <ListGroup >
+                  <ListGroup.Item action href="https://main.dy6bvnod881nu.amplifyapp.com/" className="fw-bold" style={{ color: "#0a58ca" }}>React.js</ListGroup.Item>
                   <ListGroup.Item>Node.js</ListGroup.Item>
                   <ListGroup.Item>React-Router</ListGroup.Item>
                   <ListGroup.Item>React-Bootstrap</ListGroup.Item>

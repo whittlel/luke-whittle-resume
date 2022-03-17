@@ -31,7 +31,7 @@ class About extends React.Component {
                 <Card.Header>Team Lead</Card.Header>
                 <Card.Body>
                   I worked with one other developer, a designer and technical
-                  support to create websites, make new features and to bugfix
+                  support to create websites, make new features as well as bugfix
                   and rework user interaction flows on virtual event websites.
                 </Card.Body>
               </Card>

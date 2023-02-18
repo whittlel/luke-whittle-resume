@@ -3,25 +3,28 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App/App";
 //import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 //browserRouter can only have ONE CHILD COMPONENT
-import About from "./Routes/About/About";
+import AboutDCPV from "./Routes/AboutDCPV/AboutDCPV";
+import AboutATI from "./Routes/AboutATI/AboutATI";
 import Contact from "./Routes/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import NavigationHeader from "./Components/NavigationHeader";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <NavigationHeader />
     <div>
       <Routes>
-        <Route path="/luke-whittle-resume/" element={<App />} />
-        <Route path="About" element={<About />} />
-        <Route path="Contact" element={<Contact />} />
+        <Route exact path="/luke-whittle-resume/" element={<App />} />
+        <Route exact path="AboutDCPV" element={<AboutDCPV />} />
+        <Route exact path="AboutATI" element={<AboutATI />} />
+        <Route exact path="Contact" element={<Contact />} />
+        <Route exact path="/" element={<App />} />
       </Routes>
     </div>
-  </BrowserRouter>,
+  </HashRouter>,
 
   document.getElementById("root")
 );

@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 import portfolioImage from "./PortfolioWebsites.png";
-import "./About.css";
+import "./AboutDCPV.css";
 
-class About extends React.Component {
+class AboutDCPV extends React.Component {
   render() {
     return (
-      <body className="body-colored" style={{ color: "white" }}>
+      <div className="body-colored" style={{ color: "white" }}>
         <br />
         <Container md="auto">
           <Row xs={10} md={10} >
@@ -14,7 +14,7 @@ class About extends React.Component {
               className="justify-content-md-center"
               style={{ display: "flex", textAlign: "center", marginBottom: "40px" }}
             >
-              Over the past two years I was a contracted lead developer for 65
+              For two years I was a contracted lead developer for 65
               websites in the virtual event industry.
             </h1>
             <br />
@@ -31,7 +31,7 @@ class About extends React.Component {
                 <Card.Header>Team Lead</Card.Header>
                 <Card.Body>
                   I worked with one other developer, a designer and technical
-                  support to create websites, make new features as well as bugfix
+                  support to create websites, make new features as well as bugfifx
                   and rework user interaction flows on virtual event websites.
                 </Card.Body>
               </Card>
@@ -115,14 +115,15 @@ class About extends React.Component {
                 </ListGroup>
               </Card>
             </Col>
-            <Col xs="5">
+            <Col xs="5" style={{paddingBottom:"10px"}}>
               <img className="img-fluid" src={portfolioImage} alt="list of websites" style={{ marginTop: "48px", width: "100%", paddingLeft: "40px", paddingRight: "40px" }} />
             </Col>
           </Row>
         </Container>
-      </body>
+      </div>
+      
     );
   }
 }
 
-export default About;
+export default AboutDCPV;

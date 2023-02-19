@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App/App";
 //import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 //browserRouter can only have ONE CHILD COMPONENT
 import AboutDCPV from "./Routes/AboutDCPV/AboutDCPV";
 import AboutATI from "./Routes/AboutATI/AboutATI";

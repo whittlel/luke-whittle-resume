@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import "./AboutATI.css";
 
 class AboutATI extends React.Component{
@@ -62,7 +62,7 @@ class AboutATI extends React.Component{
                             <br/>
                             <Card>
                                 <Card.Header> Certified Scrum Developer (CSD) </Card.Header>
-                                <Card.Body> I took a class to become a CSD taught by David Bernstein. I Learned the essentials of how to become an
+                                <Card.Body> I took a class to become a CSD taught by David Bernstein. I learned the essentials of how to become an
                                     effective scrum developer. I was certified on 12/11/2022.</Card.Body>
                             </Card>
                             <br/>

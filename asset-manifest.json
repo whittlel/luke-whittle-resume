@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/luke-whittle-resume/static/css/main.abacc74d.css",
-    "main.js": "/luke-whittle-resume/static/js/main.45f2e6ab.js",
+    "main.css": "/luke-whittle-resume/static/css/main.8b3d7d5d.css",
+    "main.js": "/luke-whittle-resume/static/js/main.d0799df3.js",
     "static/media/PortfolioWebsites.png": "/luke-whittle-resume/static/media/PortfolioWebsites.8e35a3b9516eaf8798cb.png",
     "static/media/liveOaks.jpg": "/luke-whittle-resume/static/media/liveOaks.19d30b8ddb8de54f2834.jpg",
     "index.html": "/luke-whittle-resume/index.html",
-    "main.abacc74d.css.map": "/luke-whittle-resume/static/css/main.abacc74d.css.map",
-    "main.45f2e6ab.js.map": "/luke-whittle-resume/static/js/main.45f2e6ab.js.map"
+    "main.8b3d7d5d.css.map": "/luke-whittle-resume/static/css/main.8b3d7d5d.css.map",
+    "main.d0799df3.js.map": "/luke-whittle-resume/static/js/main.d0799df3.js.map"
   },
   "entrypoints": [
-    "static/css/main.abacc74d.css",
-    "static/js/main.45f2e6ab.js"
+    "static/css/main.8b3d7d5d.css",
+    "static/js/main.d0799df3.js"
   ]
 }

@@ -3,6 +3,7 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link, Outlet, NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import "./NavigationHeader.css"
 
 class NavigationHeader extends React.Component {
   render() {
@@ -18,7 +19,7 @@ class NavigationHeader extends React.Component {
           </Navbar.Brand>
 
 
-          <NavDropdown title="About" id="basic-nav-dropdown">
+          <NavDropdown title="About">
             <NavDropdown.Item as={NavLink} to="/AboutDCPV">DCPV360</NavDropdown.Item>
             <NavDropdown.Item as={NavLink} to="/AboutATI">ATI</NavDropdown.Item>
           </NavDropdown>

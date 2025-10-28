@@ -11,7 +11,9 @@ class App extends React.Component {
       <div className="App">
         <div className="hero-image">
           <div className="hero-text">
-            <h1>Hey, I'm Luke - <br />A Website Developer from Charleston, SC</h1>
+            <h1>Hey, I'm Luke - <br />A Software Engineer from Charleston, SC</h1>
+            <br />
+            <p>I am experienced in web development, CI/CD automation, and database management, and I am now focusing on applied AI integration, data pipelines, and testing.</p>
             <br />
             <p>This site was created with React.js, using React-Bootstrap and React-Router-Dom</p>
           </div>

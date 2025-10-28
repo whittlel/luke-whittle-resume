@@ -15,11 +15,11 @@ class AboutATI extends React.Component{
               className="justify-content-md-center"
               style={{ display: "flex", textAlign: "center", marginBottom: "40px" }}
             >
-                As a Developer II, I have researched and developed solutions for E2E testing, implemented database version control with CI/CD pipelines and assisted with application support.
+                As an Engineer I (promoted from Programmer II), I have contributed to application modernization, database version control, and legacy system decommissioning.
                 </h1>
                 <br />
                 <h3 style={{ display: "flex", textAlign: "center", borderBottom: "3px solid white", marginBottom: "-2rem" }}>
-                    This included working with senior developers, project stakeholders, team leaders as well as 
+                    This included working with senior developers, project stakeholders, team leaders as well as
                     customer success engineers from outside companies.
                 </h3>
                     </Row>
@@ -67,8 +67,14 @@ class AboutATI extends React.Component{
                             </Card>
                             <br/>
                             <Card>
+                                <Card.Header> Legacy Application Modernization </Card.Header>
+                                <Card.Body> I decommissioned a legacy web application by recreating a functional development environment for maintenance and security updates,
+                                    then assisted in rebuilding the replacement system, analyzing legacy code and porting core functionality into modern frameworks.</Card.Body>
+                            </Card>
+                            <br/>
+                            <Card>
                                 <Card.Header> Render Atlanta 2022 </Card.Header>
-                                <Card.Body> I was able to go to the technology conference: Render ATL which was an inclusivity conference that looked into Vue and Web3 applications. 
+                                <Card.Body> I was able to go to the technology conference: Render ATL which was an inclusivity conference that looked into Vue and Web3 applications.
                                     Participated in the Vue track to further my knowledge in the framework.</Card.Body>
                             </Card>
                         </Col>

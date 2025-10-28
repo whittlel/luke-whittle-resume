@@ -26,6 +26,13 @@ class NavigationHeader extends React.Component {
           <Nav.Link style={{ color: "white" }} as={Link} to="/Contact">
             Contact
           </Nav.Link>
+          <Nav.Link
+            style={{ color: "white" }}
+            href="/luke-whittle-resume/Luke_Whittle_Resume_2025.pdf"
+            download="Luke_Whittle_Resume_2025.pdf"
+          >
+            Download Resume
+          </Nav.Link>
         </Navbar>
         <Outlet />
       </div>
